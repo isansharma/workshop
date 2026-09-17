@@ -1,0 +1,74 @@
+# ==========================================
+# General & Environment
+# ==========================================
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*
+!.env.example
+*.log
+tmp/
+temp/
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# Python (AI-Ops scripts, Ansible custom modules)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Terraform
+# ==========================================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ==========================================
+# Ansible
+# ==========================================
+*.retry
+.ansible/
+*.pem
+*.key
+
+# ==========================================
+# Kubernetes & Helm
+# ==========================================
+*.kubeconfig
+kubeconfig
+.kube/
+# Helm packaged charts and dependency archives
+*.tgz
+charts/*/charts/
+.helmignore
+
+# ==========================================
+# Observability & Local Monitoring Data
+# ==========================================
+# Ignore local database dumps, Prometheus/Grafana local data, etc.
+data/
+prometheus_data/
+grafana_data/

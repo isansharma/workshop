@@ -71,4 +71,5 @@ charts/*/charts/
 # Ignore local database dumps, Prometheus/Grafana local data, etc.
 data/
 prometheus_data/
-grafana_data/
+grafana_data/ 
+#

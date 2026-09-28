@@ -1,32 +1,43 @@
-cat > README.md <<'EOF'
-# DevOps + AI Engineering Lab
+# Senior DevOps + AI Engineering Lab
 
-## Objective
-Build and operate a production-style DevOps platform.
+## Hardware
 
-## Current hardware
 - CPU: Intel i3-12100F
 - RAM: 16 GB
-- GPU: RTX 3070 Ti
+- GPU: NVIDIA RTX 3070 Ti
+- OS: Ubuntu 24.04
+- Disk available: ~100 GB
 
-## Main technologies
+## Objectives
+
+Build a production-style DevOps platform locally.
+
+## Technology areas
+
 - Linux
+- Networking
 - Git
 - Docker
 - Kubernetes
+- Helm
 - Terraform
 - Ansible
 - Jenkins
 - GitOps
 - Observability
 - DevSecOps
-- AI-assisted operations
+- AI-assisted engineering
+- AIOps
+- AI agents
+- RAG
+- MCP/tool integration
 
-## Lab rules
-- Every experiment is documented.
-- Every failure has a root-cause analysis.
-- Every infrastructure change is version controlled.
-EOF
+## Rules
 
-git add .
-git commit -m "Initialize DevOps engineering lab"
+1. Every lab is reproducible.
+2. Every failure is investigated.
+3. Every incident is documented.
+4. Infrastructure is version controlled.
+5. AI-generated code must be reviewed.
+6. AI agents do not receive unrestricted production access.
+

@@ -1,0 +1,61 @@
+======================================
+ DevOps Workshop Environment
+======================================
+
+---- OS ----
+NAME="Ubuntu"
+VERSION="24.04.5 LTS (Noble Numbat)"
+
+---- CPU ----
+CPU(s):                                  8
+On-line CPU(s) list:                     0-7
+
+---- MEMORY ----
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       6.4Gi       2.8Gi       184Mi       6.7Gi       9.1Gi
+Swap:           35Gi          0B        35Gi
+
+---- DISK ----
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme1n1p2  228G  111G  106G  52% /
+
+---- GPU ----
+NVIDIA GeForce RTX 3070 Ti, 8192 MiB, 595.84
+
+---- Docker ----
+Docker version 29.8.0, build 88096ef
+
+---- Docker Compose ----
+Docker Compose version v5.5.1
+
+---- Kubernetes ----
+Client Version: v1.34.11
+Kustomize Version: v5.7.1
+
+---- kind ----
+kind v0.33.0 go1.26.7 linux/amd64
+
+---- Terraform ----
+Terraform v1.16.1
+
+---- Ansible ----
+ansible [core 2.16.3]
+
+---- Git ----
+git version 2.43.0
+
+---- Python ----
+Python 3.13.14
+
+---- Ollama ----
+ollama version is 0.32.1
+
+---- Kubernetes Context ----
+kind-devops-lab
+
+---- kind Clusters ----
+devops-lab
+
+======================================
+ Inventory complete
+======================================

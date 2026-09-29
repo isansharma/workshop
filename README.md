@@ -1,43 +1,60 @@
-# Senior DevOps + AI Engineering Lab
+# Senior DevOps Engineering Workshop
 
-## Hardware
+## Objective
 
-- CPU: Intel i3-12100F
-- RAM: 16 GB
-- GPU: NVIDIA RTX 3070 Ti
-- OS: Ubuntu 24.04
-- Disk available: ~100 GB
+Build production-oriented DevOps, cloud, Kubernetes, platform engineering,
+security, observability and AI engineering skills through hands-on practice.
 
-## Objectives
+## Duration
 
-Build a production-style DevOps platform locally.
+8 weeks / approximately 280 hours.
 
-## Technology areas
+## Daily target
 
-- Linux
-- Networking
-- Git
+Approximately 5 hours.
+
+## Engineering principles
+
+1. Everything reproducible.
+2. Everything important documented.
+3. Infrastructure is version controlled.
+4. Prefer automation over manual operations.
+5. Understand the underlying mechanism, not only the command.
+6. Deliberately introduce failures.
+7. Troubleshoot using evidence.
+8. Security is part of design, not an afterthought.
+9. AI-generated code must be reviewed.
+10. AI agents must use least privilege.
+11. Production changes require explicit approval.
+
+## Primary local environment
+
+- Ubuntu 24.04
 - Docker
-- Kubernetes
-- Helm
+- kind Kubernetes
+- kubectl
 - Terraform
 - Ansible
 - Jenkins
+- Helm
+- Ollama
+- Continue
+- NVIDIA RTX 3070 Ti
+- 16 GB RAM
+- Intel i3-12100F
+
+## Main capstone
+
+Build and operate a production-style application platform including:
+
+- application
+- containerization
+- Kubernetes
+- infrastructure as code
+- CI/CD
 - GitOps
-- Observability
-- DevSecOps
-- AI-assisted engineering
-- AIOps
-- AI agents
-- RAG
-- MCP/tool integration
-
-## Rules
-
-1. Every lab is reproducible.
-2. Every failure is investigated.
-3. Every incident is documented.
-4. Infrastructure is version controlled.
-5. AI-generated code must be reviewed.
-6. AI agents do not receive unrestricted production access.
+- observability
+- security
+- disaster recovery
+- AI-assisted operations
 
